@@ -11,14 +11,8 @@ Checking out the C# project if you want to see more details about the concept.
 
 ```$ composer install```
 
-## Before you start
+## Running unit tests
 
-I'm using Mongo DB in this project. Preparing a Mongo DB first if you want to run this project. The setting is configured in the .env file.
-
-## How to run service
-
-Just typing one line in your console
-
-```
-./artisan serve
+```bash
+php <Project>/vendor/phpunit/phpunit/phpunit --configuration <Project>/phpunit.xml <Project>/tests/Unit
 ```
