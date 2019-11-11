@@ -16,3 +16,7 @@ Checking out the C# project if you want to see more details about the concept.
 ```bash
 php <Project>/vendor/phpunit/phpunit/phpunit --configuration <Project>/phpunit.xml <Project>/tests/Unit
 ```
+
+:::warning
+你可以從 <Project>order/Domain/Order/Model/Order.php 開始你的建模旅程
+:::
